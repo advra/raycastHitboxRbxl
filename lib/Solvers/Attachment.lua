@@ -12,8 +12,8 @@ function solver:Solve(point: {[string]: any}): (Vector3, Vector3)
 		point.LastPosition = point.Instances[1].WorldPosition
 	end
 
-	local origin: Vector3 = point.LastPosition
-	local direction: Vector3 = point.Instances[1].WorldPosition - point.LastPosition
+	local origin: Vector3 = point.Instances[1].WorldPosition
+	local direction: Vector3 = point.LastPosition - point.Instances[1].WorldPosition
 
 	return origin, direction
 end
