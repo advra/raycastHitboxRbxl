@@ -3,6 +3,11 @@ Requires Roblox Studio and knowledge of its API - Free to use for everybody
 
 Rojo-compliant.
 
+| Versions  | Description |
+| ------------- | ------------- |
+| v4.01a  | Bug fixes and support replication both client and server |
+| v4.01  | Original release |
+
 ____
 Original Credits to [Swordphin](https://github.com/Swordphin/raycastHitboxRbxl/tree/master)
 
